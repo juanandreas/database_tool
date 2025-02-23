@@ -9,12 +9,14 @@ One for the Flask server, another for the postgres db.
 Docker container usage:
 ```
 Usage:
-make build → Builds the Flask and PostgreSQL containers.
-make up → Starts the containers in the background (-d for detached mode).
-make down → Stops and removes the containers.
+make run → Builds the Flask and PostgreSQL containers and starts the containers in the background (-d for detached mode).
 make logs → Follows the logs for debugging.
 make clean → Stops the containers, removes volumes, and clears unused Docker data.
 ```
+
+Access locally hosted server on:
+
+`http://localhost:5001/`
 
 Enter postgresql container through terminal:
 

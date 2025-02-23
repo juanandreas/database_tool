@@ -1,13 +1,8 @@
 .PHONY: build up down clean logs
 
-build:
+run:
 	docker-compose build
-
-up:
 	docker-compose up -d
-
-down:
-	docker-compose down
 
 logs:
 	docker-compose logs -f
