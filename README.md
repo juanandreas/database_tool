@@ -2,11 +2,17 @@ This application has 2 containers that it builds.
 
 One for the Flask server, another for the postgres db.
 
-To run the containers:
+Docker contianer usage:
+```
+Usage:
+make build → Builds the Flask and PostgreSQL containers.
+make up → Starts the containers in the background (-d for detached mode).
+make down → Stops and removes the containers.
+make logs → Follows the logs for debugging.
+make clean → Stops the containers, removes volumes, and clears unused Docker data.
+```
 
-`docker-compose up --build`
-
-Enter postgresql container:
+Enter postgresql container through terminal:
 
 `docker exec -it my_project-db-1 psql -U myuser -d mydatabase`
 
