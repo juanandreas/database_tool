@@ -1,8 +1,12 @@
+# Welcome to my database learning tool w/ Docker!
+
+### This is a very introductory application that has a python flask server and PostgreSQL database.
+
 This application has 2 containers that it builds.
 
 One for the Flask server, another for the postgres db.
 
-Docker contianer usage:
+Docker container usage:
 ```
 Usage:
 make build → Builds the Flask and PostgreSQL containers.
