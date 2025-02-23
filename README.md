@@ -30,5 +30,5 @@ environment:
       - "5432:5432"
 ```
 
-
+Feel free to create tables and practice sql locally. Don't push anything without my approval.
 
